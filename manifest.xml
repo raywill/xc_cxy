@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="0.7">
+	<application setting="true">
+		<name><![CDATA[打败程序员]]></name>
+		<identifie><![CDATA[xc_cxy]]></identifie>
+		<version><![CDATA[0.0.1]]></version>
+		<type><![CDATA[services]]></type>
+		<ability><![CDATA[打败程序员教学]]></ability>
+		<description><![CDATA[打败程序员教学]]></description>
+		<author><![CDATA[晓楚]]></author>
+		<url><![CDATA[http://bbs.we7.cc/]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+			<message type="text" />
+		</handles>
+		<rule embed="true" />
+		<card embed="false" />
+	</platform>
+	<bindings>
+		<menu>
+        	<entry title="收藏" do="fav" />
+        </menu>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>
+
+
